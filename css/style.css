@@ -505,3 +505,117 @@ body
 }
 
 /*   Portfolio End   */
+
+/*   Testimonial Start   */
+
+#testimonial
+{
+    background-image: url(../images/testimonial_bg.jpg);
+    background-position: top;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 60px 0;
+}
+
+.testimonial_heading h2
+{
+    font-family: 'Abril Fatface', sans-serif;
+    font-size: 32px;
+    color: #d6c6b2;
+    padding-bottom: 60px;
+    text-transform: capitalize;
+}
+
+.testimonial_slides_wrapper
+{
+    position: relative;
+}
+
+.testimonial_slides_parent
+{
+    padding-bottom: 90px;
+}
+
+.testimonial_slides h2
+{
+    color: #fff;
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: capitalize;
+    margin-bottom: 2px;
+}
+
+.testimonial_slides h3
+{
+    font-size: 16px;
+    color: #fff;
+    margin-bottom: 6px;
+}
+
+.testimonial_slides p
+{
+    font-size: 14px;
+    color: #fff;
+}
+
+.testimonial_slide_stars
+{
+    margin-bottom: 20px;
+}
+
+.testimonial_slide_stars i
+{
+    color: #fff;
+    font-size: 16px;
+}
+
+.testimonial_prev_arrow, .testimonial_next_arrow
+{
+    position: absolute;
+    z-index: 99;
+    height: 30px;
+    width: 30px;
+    border: 1px solid #fff;
+    border-radius: 50%;
+    bottom: 0;
+    transform: translateX(-50%);
+    transition: .3s;
+    -webkit-transition: .3s;
+}
+
+.testimonial_prev_arrow
+{
+    left: 45%;
+}
+
+.testimonial_next_arrow
+{
+    left: 55%;
+}
+
+.testimonial_prev_arrow:hover, .testimonial_next_arrow:hover
+{
+    background: #d6c6b2;
+    border-color: #d6c6b2;
+}
+
+.testimonial_prev_arrow i, .testimonial_next_arrow i
+{
+    color: #fff;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 30px;
+}
+
+.testimonial_prev_arrow i
+{
+    right: 55%;
+}
+
+.testimonial_next_arrow i
+{
+    left: 55%;
+}
+
+/*   Testimonial End   */

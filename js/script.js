@@ -37,6 +37,27 @@ $(function()
         ]
     });
     
+    $('.testimonial_slides_parent').slick(
+    {
+        infinite: true,
+        slidesToShow: 2,
+        slidesToScroll: 1,
+        prevArrow: '.testimonial_prev_arrow',
+        nextArrow: '.testimonial_next_arrow',
+        autoplay: true,
+        autoplaySpeed: 2500,
+        responsive:
+        [
+            {
+                breakpoint: 992,
+                settings:
+                {
+                    slidesToShow: 1
+                }
+            }
+        ]
+    });
+    
     //Filterizr
     
     var filterizd = $('.filtr-container').filterizr();
@@ -51,6 +72,14 @@ $(function()
     {
         $('.portfolio_filter_nav_ul li').removeClass('portfolio_filter_nav_li_active');
     });
+    
+    //Fancybox
+    
+    $('[data-fancybox]').fancybox(
+    {
+        loop: true,
+        buttons:['close']
+    })
     
     
 });
