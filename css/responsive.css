@@ -1,0 +1,29 @@
+@media(min-width: 992px)
+{
+    #mynav ul li 
+    {
+        margin-top: -43px;
+        padding-top: 43px;
+    }
+}
+
+@media(max-width: 991px)
+{
+    #mynav ul
+    {
+        margin-top: 15px;
+    }
+    
+    .about_contents
+    {
+        margin-top: 20px;
+    }
+}
+
+@media(max-width: 575px)
+{
+    .banner_captions a
+    {
+        margin-left: 10px;
+    }
+}
