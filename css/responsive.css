@@ -54,3 +54,11 @@
         width: 49.5%;
     }
 }
+
+@media(max-width: 767px)
+{
+    .pricing_grid
+    {
+        margin-bottom: 10px;
+    }
+}

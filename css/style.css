@@ -18,6 +18,7 @@ p
 ul
 {
     list-style-type: none;
+    margin: 0;
 }
 
 h1, h2, h3, h4, h5, h6, p
@@ -619,3 +620,144 @@ body
 }
 
 /*   Testimonial End   */
+
+/*   Pricing Start   */
+
+#pricing
+{
+    background: #282828;
+    padding: 100px 0;
+}
+
+.pricing_heading h2
+{
+    font-family: 'Abril Fatface', sans-serif;
+    font-size: 32px;
+    color: #d6c6b2;
+    padding-bottom: 60px;
+    text-transform: capitalize;
+}
+
+.pricing_grid
+{
+    background: #333;
+    transition: .3s;
+    -webkit-transition: .3s;
+}
+
+.pricing_grid h1
+{
+    width: 100%;
+    background: #d6c6b2;
+    text-transform: capitalize;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 15px 0;
+}
+
+.pricing_grid_contents img
+{
+    margin-top: 20px;
+}
+
+.pricing_grid_contents h2
+{
+    font-size: 60px;
+    font-weight: 700;
+    color: #fff;
+    position: relative;
+    transition: .3s;
+    -webkit-transition: .3s;
+    padding-bottom: 14px;
+}
+
+.pricing_grid_contents h2::after
+{
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    height: 1px;
+    width: 65%;
+    border-bottom: 3px solid rgba(214,198,178,.1);
+}
+
+.pricing_grid_contents h2 span
+{
+    font-size: 24px;
+}
+
+.pricing_grid_list
+{
+    margin-top: 30px;
+}
+
+.pricing_grid_list li
+{
+    text-transform: capitalize;
+    color: #fff;
+    font-size: 14px;
+    margin-bottom: 20px;
+    transition: .3s;
+    -webkit-transition: .3s;
+}
+
+.pricing_grid_contents a
+{
+    font-size: 16px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #fff;
+    border: 1px solid #fff;
+    padding: 10px 20px;
+    display: inline-block;
+    transition: .3s;
+    -webkit-transition: .3s;    
+}
+
+.pricing_button
+{
+    display: inline-block;
+    margin-bottom: 30px;
+    transition: .3s;
+    -webkit-transition: .3s;
+}
+
+.pricing_grid:hover
+{
+    background: #d6c6b2;
+}
+
+.pricing_grid:hover .pricing_grid_contents h2
+{
+    color: #222;
+}
+
+.pricing_grid:hover h1
+{
+    box-shadow: 0px 0px 12.75px 2.25px rgba(0, 0, 0, 0.2); 
+}
+
+.pricing_grid:hover .pricing_grid_list li
+{
+    color: #444;
+}
+
+.pricing_grid:hover .pricing_grid_contents a
+{
+    color: #222;
+    border: 1px solid transparent;
+}
+
+.pricing_grid:hover .pricing_button
+{
+    box-shadow: 0px 0px 9px 1px rgba(0, 0, 0, 0.2); 
+}
+
+.pricing_grid:hover .pricing_grid_contents h2::after
+{
+    border-color: rgba(68,68,68,.1);
+}
+
+/*   Pricing End   */
