@@ -37,5 +37,20 @@ $(function()
         ]
     });
     
+    //Filterizr
+    
+    var filterizd = $('.filtr-container').filterizr();
+    
+    $('.portfolio_filter_nav_ul li').on('click', function()
+    {
+        $('.portfolio_filter_nav_ul li').removeClass('portfolio_filter_nav_li_active');
+        $(this).addClass('portfolio_filter_nav_li_active');
+    });
+    
+    $('.portfolio_all_button div').on('click', function()
+    {
+        $('.portfolio_filter_nav_ul li').removeClass('portfolio_filter_nav_li_active');
+    });
+    
     
 });
