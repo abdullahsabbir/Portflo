@@ -761,3 +761,202 @@ body
 }
 
 /*   Pricing End   */
+
+/*   Blog Start   */
+
+#blog
+{
+    background: #333;
+    padding: 60px 0;
+}
+
+.blog_left_post
+{
+    background: #282828;
+    margin-bottom: 30px;
+}
+
+.blog_heading h2
+{
+    font-family: 'Abril Fatface', sans-serif;
+    font-size: 32px;
+    color: #d6c6b2;
+    padding-bottom: 60px;
+    text-transform: capitalize;
+}
+
+.blog_left_post_image
+{
+    position: relative;
+}
+
+.blog_left_post_image_hover
+{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background: rgba(214,198,178,.75);
+    top: 0;
+    left: 0;
+    opacity: 0;
+    transition: .3s;
+    -webkit-transition: .3s; 
+}
+
+.blog_left_post_image_hover h3
+{
+    position: absolute;
+    font-weight: 600;
+    font-size: 24px;
+    color: #fff;
+    top: 30px;
+    right: 10px;
+    cursor: default;
+}
+
+.blog_post_captions
+{
+    padding: 25px 30px;
+}
+
+.blog_post_social
+{
+    margin-bottom: 30px;
+}
+
+.blog_post_social p
+{
+    display: inline-block;
+    text-transform: capitalize;
+    font-size: 13px;
+    color: #999;
+    transition: .3s;
+    -webkit-transition: .3s;
+}
+
+.blog_post_social_inner p
+{
+    margin-right: 4px;
+}
+
+.blog_post_social_inner p:last-child
+{
+    margin: 0;
+}
+
+.blog_post_social_inner
+{
+    display: inline-block;
+}
+
+.blog_post_captions h2
+{
+    font-weight: 600;
+    color: #fff;
+    font-size: 20px;
+    margin-bottom: 25px;
+    transition: .3s;
+    -webkit-transition: .3s; 
+}
+
+.blog_post_captions > p
+{
+    color: #ccc;
+    font-size: 14px;
+    margin-bottom: 18px;
+    transition: .3s;
+    -webkit-transition: .3s;
+}
+
+.blog_post_captions > a
+{
+    font-weight: 600;
+    font-size: 16px;
+    color: #fff;
+    text-transform: uppercase;
+    transition: .3s;
+    -webkit-transition: .3s; 
+}
+
+.blog_post_captions > a:last-child
+{
+    text-transform: capitalize;
+    color: #999;
+}
+
+.blog_left_post:hover .blog_left_post_image_hover
+{
+    opacity: 1;
+}
+
+.blog_left_post:hover .blog_post_captions h2
+{
+    color: #d6c6b2;
+}
+
+.blog_left_post:hover .blog_post_captions > a
+{
+    color: #d6c6b2;
+}
+
+.blog_right_post
+{
+    background: #282828;
+    transition: .3s;
+    -webkit-transition: .3s;
+}
+
+.blog_right_post:hover
+{
+    background: #d6c6b2;
+}
+
+.blog_right_post:hover .blog_post_social p
+{
+    color: #666;
+}
+
+.blog_right_post:hover .blog_post_captions h2
+{
+    color: #222;
+}
+
+.blog_right_post:hover .blog_post_captions > p
+{
+    color: #444;
+}
+
+.blog_right_post:hover .blog_post_captions a
+{
+    color: #222;
+}
+
+.blog_right_post:hover .blog_post_captions a:last-child
+{
+    color: #666;
+}
+
+.blog_bottom_button
+{
+    margin-top: 40px;
+}
+
+.blog_bottom_button a
+{
+    text-transform: uppercase;
+    color: #222;
+    font-weight: 600;
+    font-size: 16px;
+    padding: 10px 20px;
+    background: #d6c6b2;
+    transition: .3s;
+    -webkit-transition: .3s;
+    cursor: pointer;
+}
+
+.blog_bottom_button a:hover
+{
+    background: #ddd;
+}
+
+/*   Blog End   */
