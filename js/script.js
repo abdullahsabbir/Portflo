@@ -1,5 +1,17 @@
 $(function()
 {
+    'use strict'
+    
+    //Smooth Scroll
+    
+    $(document).on('click', 'a[href^="#"]:not([data-toggle])', function (event) {
+    event.preventDefault();
+
+    $('html, body').animate({
+        scrollTop: $($.attr(this, 'href')).offset().top - 103
+    }, 500);
+    });
+    
     //Navbar Fix
     
     $(window).on('scroll', function()
@@ -11,7 +23,8 @@ $(function()
         else
         {
             $('.custom_nav').css({'background': 'transparent'});
-        } 
+        }
+        
     });
     
     //Slick Slider
@@ -79,7 +92,6 @@ $(function()
     {
         loop: true,
         buttons:['close']
-    })
-    
+    });
     
 });
